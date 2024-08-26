@@ -1,5 +1,4 @@
 # https://leetcode.com/submissions/detail/1328367281/
-# read this and try to understand:
 # https://leetcode.com/problems/number-of-islands/solutions/56349/7-lines-python-14-lines-java
 from typing import List
 
