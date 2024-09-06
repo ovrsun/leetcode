@@ -1,9 +1,7 @@
 # https://leetcode.com/problems/plus-one/description
-from typing import List
-
 
 class Solution:
-    def plusOne(self, digits: List[int]) -> List[int]:
+    def plusOne(self, digits: list[int]) -> list[int]:
         i = len(digits) - 1
         carry = 1
         while i >= 0 and carry:
@@ -19,7 +17,6 @@ class Solution:
                 new_digits[i+1] = digits[i]
             return new_digits
         return digits
-            
 
 
 sln = Solution()

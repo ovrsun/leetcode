@@ -12,8 +12,6 @@ def is_anagram(s, t):
         t_hm[c] = t_hm.setdefault(c, 0) + 1
 
     return s_hm == t_hm
-    
-
 
 
 assert is_anagram('', '') is True

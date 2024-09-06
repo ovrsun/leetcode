@@ -1,8 +1,7 @@
 # https://leetcode.com/problems/can-make-arithmetic-progression-from-sequence/
-from typing import List
 
 class Solution:
-    def canMakeArithmeticProgression(self, arr: List[int]) -> bool:
+    def canMakeArithmeticProgression(self, arr: list[int]) -> bool:
         counts = {}
         mini = min(arr)
         maxi = max(arr)
