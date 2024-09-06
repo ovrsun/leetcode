@@ -39,11 +39,11 @@ class Solution(object):
             j = 0
         return -1
 
-
-
+aaaaa
+aaa
 
 sln = Solution()
-assert sln.strStr('sadbutsad', 'sad') == 0
+                        assert sln.strStr('sadbutsad', 'sad') == 0
 assert sln.strStr('sadbutsad', 'a') == 1
 assert sln.strStr('leetcode', 'leeto') == -1
 assert sln.strStr('leet', 'leetcode') == -1

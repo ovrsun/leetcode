@@ -15,7 +15,7 @@ class Solution:
         if n % 2:
             secondary -= mat[n//2][n//2]
         return primary + secondary
-
+    
 
 sln = Solution()
 assert sln.diagonalSum([[1,2,3],[4,5,6],[7,8,9]]) == 25
